@@ -5,15 +5,16 @@
   gap: 1.5rem;
   padding: 2rem;
   width: 100%;
-  margin-block: 1.5rem;
+  margin-block: 2rem;
   flex-wrap: wrap;
 }
 .section__contentt .containerr{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   width: 15%;
   height: 10rem;
+  border: 1px solid gray;
   margin: 1.5rem
 }
 .section__contentt .containerr p{
@@ -35,7 +36,7 @@
   border-radius: 50%
 }
 .section__contentt .containerr div h4{
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: 600;
 }
 
