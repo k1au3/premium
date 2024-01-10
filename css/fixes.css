@@ -1,0 +1,37 @@
+.section__contentt{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  width: 100%;
+}
+.section__contentt .containerr{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 15rem;
+}
+.section__contentt .containerr p{
+  font-size: .9rem;
+  font-weight: 600;
+  opacity: .6;
+}
+.section__contentt .containerr div{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.2rem;
+  padding-inline-start: 1rem;
+}
+.section__contentt .containerr div img{
+  object-fit: cover;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%
+}
+.section__contentt .containerr div h4{
+  font-size: 1rem;
+  font-weight: 600;
+}
+  
